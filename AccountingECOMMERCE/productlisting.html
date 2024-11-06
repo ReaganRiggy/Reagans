@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Accounting - Product listing</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS for styling -->
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1><b><u>Maseno stores</u></b></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shopp.html">Shop</a></li>
+                    <li><a href="productlisting.html">Listing page</a></li>
+                    <li><a href="productdetail.html">Product Detail page</a></li>
+                    <li><a href="shoppingcart.html">shopping cart page</a></li>
+                    <li><a href="checkout.html">checkout page</a></li>
+                    <li><a href="returns.html">Return product</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <!-- Category 1 Products Section -->
+    <main>
+        <h2>Product listing</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/stylish-1.0.0/images/card-large-item9.jpg" alt="Product 1" class="product-image">
+                <h3>Product 1</h3>
+                <p>$49.99</p>
+                <button onclick="addToCart(1, 'Product 1', 49.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/stylish-1.0.0/images/card-large-item8.jpg" alt="Product 2" class="product-image">
+                <h3>Product 2</h3>
+                <p>$55</p>
+                <button onclick="addToCart(2, 'Product 2', 55)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/stylish-1.0.0/images/card-large-item5.jpg" alt="Product 3" class="product-image">
+                <h3>Product 3</h3>
+                <p>$65</p>
+                <button onclick="addToCart(3, 'Product 3', 65)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/stylish-1.0.0/images/card-large-item6.jpg" alt="Product 4" class="product-image">
+                <h3>Product 4</h3>
+                <p>$75</p>
+                <button onclick="addToCart(4, 'Product 4', 75)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/stylish-1.0.0/images/card-large-item4.jpg" alt="Product 5" class="product-image">
+                <h3>Product 5</h3>
+                <p>$70</p>
+                <button onclick="addToCart(5, 'Product 5', 70)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/stylish-1.0.0/images/card-large-item3.jpg" alt="Product 6" class="product-image">
+                <h3>Product 6</h3>
+                <p>$68</p>
+                <button onclick="addToCart(6, 'Product 6', 68)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images\f-box-3.jpg" alt="Product 7" class="product-image">
+                <h3>Product 7</h3>
+                <p>$80</p>
+                <button onclick="addToCart(7, 'Product 7', 80)">Add to Cart</button>
+            </div>
+            
+            
+
+            <!-- Add more products as needed -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Maseno stores. All rights reserved.</p>
+        </div>
+    </footer>
+  
+</body>
+</html>

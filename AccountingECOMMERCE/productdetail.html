@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Accounting - Product Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1><b><u>Maseno stores</u></b></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shopp.html">Shop</a></li>
+                    <li><a href="productlisting.html">Listing Page</a></li>
+                    <li><a href="shoppingcart.html">Shopping Cart Page</a></li>
+                    <li><a href="productdetail.html">Product Detail page</a></li>
+                    <li><a href="checkout.html">Checkout Page</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button type="submit">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Detail Section -->
+    <main>
+        <h2>Product Details</h2>
+        <!-- Product 1 -->
+        <div class="product-detail">
+            <img src="images/stylish-1.0.0/images/card-large-item9.jpg" alt="Product 1 Image" class="product-image">
+            <div class="product-info">
+                <h2>Product 1</h2>
+                <p class="price">$49.99</p>
+                <p class="description">This is an amazing product that combines quality and style. Perfect for anyone looking for reliability and elegance in one package.</p>
+                <h3>Product Features</h3>
+                <ul>
+                    <li>High-quality materials</li>
+                    <li>Available in multiple colors</li>
+                    <li>30-day return policy</li>
+                </ul>
+                <h3>Customer Reviews</h3>
+                <p>★★★★☆ (4/5) - "Great product with excellent value!"</p>
+                <button onclick="addToCart(1, 'Product 1', 49.99)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-detail">
+            <img src="images/stylish-1.0.0/images/card-large-item8.jpg" alt="Product 2 Image" class="product-image">
+            <div class="product-info">
+                <h2>Product 2</h2>
+                <p class="price">$55</p>
+                <p class="description">Product 2 provides exceptional value and is perfect for everyday use. Made with premium materials for a luxurious feel.</p>
+                <h3>Product Features</h3>
+                <ul>
+                    <li>Durable and lightweight</li>
+                    <li>Eco-friendly materials</li>
+                    <li>Comes with a warranty</li>
+                </ul>
+                <h3>Customer Reviews</h3>
+                <p>★★★★★ (5/5) - "Best purchase I've made this year!"</p>
+                <button onclick="addToCart(2, 'Product 2', 55)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-detail">
+            <img src="images/stylish-1.0.0/images/card-large-item5.jpg" alt="Product 3 Image" class="product-image">
+            <div class="product-info">
+                <h2>Product 3</h2>
+                <p class="price">$65</p>
+                <p class="description">Product 3 combines functionality with elegance. A great addition to your collection with a unique design.</p>
+                <h3>Product Features</h3>
+                <ul>
+                    <li>Modern design</li>
+                    <li>Customizable options</li>
+                    <li>User-friendly setup</li>
+                </ul>
+                <h3>Customer Reviews</h3>
+                <p>★★★★☆ (4.5/5) - "Stylish and easy to use!"</p>
+                <button onclick="addToCart(3, 'Product 3', 65)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-detail">
+            <img src="images/stylish-1.0.0/images/card-large-item6.jpg" alt="Product 4 Image" class="product-image">
+            <div class="product-info">
+                <h2>Product 4</h2>
+                <p class="price">$75</p>
+                <p class="description">Product 4 is designed for those who appreciate both comfort and style. A versatile piece for any occasion.</p>
+                <h3>Product Features</h3>
+                <ul>
+                    <li>Soft fabric</li>
+                    <li>Multiple size options</li>
+                    <li>Machine washable</li>
+                </ul>
+                <h3>Customer Reviews</h3>
+                <p>★★★★☆ (4/5) - "Very comfortable and stylish!"</p>
+                <button onclick="addToCart(4, 'Product 4', 75)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-detail">
+            <img src="images/stylish-1.0.0/images/card-large-item4.jpg" alt="Product 5 Image" class="product-image">
+            <div class="product-info">
+                <h2>Product 5</h2>
+                <p class="price">$70</p>
+                <p class="description">Product 5 brings a touch of sophistication to your space. Crafted with high attention to detail.</p>
+                <h3>Product Features</h3>
+                <ul>
+                    <li>Elegant finish</li>
+                    <li>Perfect for gifts</li>
+                    <li>Timeless design</li>
+                </ul>
+                <h3>Customer Reviews</h3>
+                <p>★★★★☆ (4.5/5) - "Absolutely love it!"</p>
+                <button onclick="addToCart(5, 'Product 5', 70)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-detail">
+            <img src="images/stylish-1.0.0/images/card-large-item3.jpg" alt="Product 6 Image" class="product-image">
+            <div class="product-info">
+                <h2>Product 6</h2>
+                <p class="price">$68</p>
+                <p class="description">Product 6 is a favorite for those seeking style and comfort. Ideal for adding a modern touch to your collection.</p>
+                <h3>Product Features</h3>
+                <ul>
+                    <li>Stylish and trendy</li>
+                    <li>Lightweight and easy to carry</li>
+                    <li>Available in various colors</li>
+                </ul>
+                <h3>Customer Reviews</h3>
+                <p>★★★★★ (5/5) - "Best quality for the price!"</p>
+                <button onclick="addToCart(6, 'Product 6', 68)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-detail">
+            <img src="images/f-box-3.jpg" alt="Product 7 Image" class="product-image">
+            <div class="product-info">
+                <h2>Product 7</h2>
+                <p class="price">$80</p>
+                <p class="description">Product 7 combines durability and aesthetics in one. Perfect for those looking for a long-lasting and elegant product.</p>
+                <h3>Product Features</h3>
+                <ul>
+                    <li>Heavy-duty construction</li>
+                    <li>Elegant design suitable for all occasions</li>
+                    <li>Easy maintenance</li>
+                </ul>
+                <h3>Customer Reviews</h3>
+                <p>★★★★☆ (4/5) - "Highly recommend for anyone!"</p>
+                <button onclick="addToCart(7, 'Product 7', 80)">Add to Cart</button>
+                <li><a href="shoppingcart.html"><b>view and update your cart</b></a></li>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Maseno stores. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="main.js"></script>
+</body>
+</html>

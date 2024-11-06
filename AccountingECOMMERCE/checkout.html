@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1><b><u>Maseno stores</u></b></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shopp.html">Shop</a></li>
+                    <li><a href="productlisting.html">Listing Page</a></li>
+                    <li><a href="productdetail.html">Product Detail Page</a></li>
+                    <li><a href="shoppingcart.html">shopping cart page</a></li>
+                    <li><a href="checkout.html">Checkout Page</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button type="submit">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Checkout Form -->
+    <main>
+        <h2>Checkout</h2>
+        <form <form action="https://formspree.io/f/xanyyokl" method="POST", id="checkout-form" onsubmit="validateForm(event)">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Shipping Address</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="payment">Payment Method</label>
+            <select id="payment" name="payment" required>
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+            </select>
+
+            <button type="submit">Place Order</button>
+        </form>
+        <p>Email: reaganodhiambo2022@gmail.com</p>
+        <p>Phone: (+254) 704936242</p>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Maseno stores. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

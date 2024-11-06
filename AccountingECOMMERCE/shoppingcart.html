@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1><b><u>Maseno stores</u></b></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shopp.html">Shop</a></li>
+                    <li><a href="productlisting.html">Listing Page</a></li>
+                    <li><a href="productdetail.html">Product Detail Page</a></li>
+                    <li><a href="shoppingcart.html">shopping cart page</a></li>
+                    <li><a href="checkout.html">Checkout Page</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button type="submit">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cart Section -->
+    <main>
+        <h1>Shopping Cart</h1>
+        <h1><li><a href="productdetail.html"><b>Add Cart</b></a></li></h1>
+        <div class="cart-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    <!-- JavaScript will populate cart items here -->
+                </tbody>
+            </table>
+            <div class="cart-summary">
+                <p id="total-price">Total: $0.00</p>
+                <button onclick="proceedToCheckout()">Proceed to Checkout</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Maseno stores. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
